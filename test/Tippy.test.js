@@ -58,6 +58,7 @@ describe('<Tippy />', () => {
   });
 
   test('cleans up after unmounting in tests', async () => {
+    console.log(require('jsdom/package.json').version);
     render(
       <Tippy
         content="tooltip"
